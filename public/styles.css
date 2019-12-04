@@ -5,6 +5,12 @@ body {
     padding: 0px;
     background: #fff;
 }
+
+.nextjumbo{
+  background: #f0f2f5;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
   
   h1,
   h2,
@@ -129,6 +135,7 @@ body {
 
 .bookbut{
   display: none;
+  text-emphasis-color:white;
 }
 
 .bgwhite{
@@ -143,6 +150,15 @@ body {
     max-width: 250px;
     max-height: 450px;
     overflow: scroll;
+  }
+
+  .nopad{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .somepad{
+    margin-bottom: 30px;
   }
 
   .content2 {
@@ -213,4 +229,108 @@ body {
   
   li a:hover {
     background-color: #111;
+  }
+
+  
+  .slogan{
+    padding: 20px;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 35%;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 7mm
+  }
+
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .about{
+    padding: 40px;
+    margin-left: 0%;
+    margin-right: 35%;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 20mm;
+    
+  }
+
+  .bio{
+    padding: 15px;
+    margin-left: 3%;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    font-weight: normal;
+    font-size: 5mm;
+    border-color: green;
+    border-style: groove;
+
+  }
+
+  .documentation{
+    padding: 20px;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 7mm
+
+  }
+
+  .screen1{
+    padding-right: 30px;
+    text-align: center;
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+
+
+  .desc{
+    padding: 15px;
+    text-align: center;
   }
