@@ -29,6 +29,7 @@
   </head>
 
   <body onload="loadData()" >
+    <!---
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
           <div class="collapse navbar-collapse" id="navbarsExampleDefault">
               <ul class="navbar-nav mr-auto bg-dark">
@@ -47,7 +48,72 @@
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
               </form>
           </div>
-        </nav>
+        </nav> -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">RecMate</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto bg-dark">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="documentation.html">Documentation</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <header class="headbg py-5 mb-5">
+              <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                  <div class="col-lg-12">
+                    <!--<h1 class="display-4 text-white mt-5 mb-2">RecMate</h1>-->
+                    <a><img src="logo3.png" class="logo" class="col-md-2"/></a>
+                    <p class="lead mb-5 text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non possimus ab labore provident mollitia. Id assumenda voluptate earum corporis facere quibusdam quisquam iste ipsa cumque unde nisi, totam quas ipsam.</p>
+                  </div>
+                </div>
+              </div>
+            </header>
+
+            <div class="container">
+
+                <div class="row">
+                  <div class="col-md-8 mb-5">
+                    <h2>What We Do</h2>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
+                    <a class="btn btn-primary btn-lg" href="#">Learn more &raquo;</a>
+                  </div>
+                  <div class="col-md-4 mb-5">
+                    <h2>Contact Us</h2>
+                    <hr>
+                    <address>
+                      <strong>Address</strong>
+                      <br>7950 Baltimore Avenue
+                      <br>College Park, MD 20742
+                      <br>
+                    </address>
+                    <address>
+                      <abbr title="Phone">P:</abbr>
+                      (973) 487-7519
+                      <br>
+                      <abbr title="Email">E:</abbr>
+                      <a href="mailto:#">infocenter@recmate.com</a>
+                    </address>
+                  </div>
+                </div>
+            </div>
 
         <div class="jumbotron">
             <div class="container">
@@ -69,6 +135,7 @@
                   src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d273132.4976600421!2d-76.9222563807033!3d39.000385465521035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1574029716707!5m2!1sen!2sus"
                   class="map"
                 ></iframe>
+                <div>Rec Centers</div>
                 <div  id= "info" class="content col-md-2"></div>
                 </div>
                 <div class="row d-flex justify-content-center">
