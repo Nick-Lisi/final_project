@@ -11,6 +11,10 @@ body {
   h3 {
     line-height: 1.2
   }
+
+  .headbg{
+    background: #163129;
+  }
   
   .myButton {
     box-shadow:inset 0px 1px 0px 0px #9acc85;
@@ -27,7 +31,7 @@ body {
     text-decoration:none;
   }
   .myButton:hover {
-    background:linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+    background:linear-gradient(to bottom, #163129 5%, #74ad5a 100%);
     background-color:#68a54b;
   }
   .myButton:active {
@@ -117,20 +121,23 @@ body {
 
   .logo{
     width:300px;
-    height:220px;
+    height:100px;
     background: azure;
     margin-bottom: 8px;
+    margin-top: 10px;
 }
 
 .bookbut{
   display: none;
 }
 
+.bgwhite{
+  background:white;
+}
+
   
   .content {
     background: #fff;
-    border: 2px dotted #444;
-    flex: 0 0 200px;
     padding: 10px;
     overflow-wrap: break-word;
     margin: 0px 10px;
