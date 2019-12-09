@@ -208,6 +208,10 @@ body {
     margin-bottom: 8px;
   }
 
+  /* Source to create the buttons 
+    https://www.bestcssbuttongenerator.com/#/27 
+  */
+
   .button {
     background-color: #ffc477;
     -moz-border-radius: 11px;
@@ -236,31 +240,6 @@ body {
 
   .topcolor{
     background-color: #333;
-  }
-
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    margin-top: 0px;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 41px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
   }
 
   
@@ -305,6 +284,9 @@ body {
     width: 24.99999%;
   }
   
+  /* Source for @media
+  https://www.w3schools.com/css/css3_mediaqueries_ex.asp 
+  */
   @media only screen and (max-width: 700px) {
     .responsive {
       width: 49.99999%;
