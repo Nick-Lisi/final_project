@@ -12,6 +12,14 @@ app.get('/', function(req, res){
     res.render("index");
 })
 
+app.put('/', function (req, res) {
+    res.send('index')
+  })
+
+app.post('/', function (req, res) {
+    res.send('index')
+  })
+
 app.listen(port, function(){
     console.log("app running")
 })
