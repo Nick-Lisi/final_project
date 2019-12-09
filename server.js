@@ -1,3 +1,6 @@
+//Source on how to connect to Heroku
+//https://www.youtube.com/watch?v=P86N9FqNqso
+
 const express = require('express');
 
 const app = express();
