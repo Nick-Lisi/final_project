@@ -5,7 +5,9 @@
 
   <head>
     <meta charset="utf-8" />
-    
+    <!--Source to get the Bootstrap CDN
+      https://getbootstrap.com/docs/4.4/getting-started/download/
+    -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -22,15 +24,25 @@
     
     <!-- No UTF-8, no emoji! Unicode has superceded ASCII as the language of the web -->
     <title>RecMate</title>
-    <meta name="description" content="A description for the google robots" />
-    <meta name="author" content="Put someone's name on it" />
+    <meta name="description" content="PG county community recreation center booking" />
+    <meta name="author" content="Nick Lisi" />
 
     <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body onload="loadData()" >
+    <!--Entire Bootstrap layout theme
+        https://startbootstrap.com/templates/business-frontpage/ 
+    -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+          <!--
+            Source for Bootstrap container
+            http://shoelace.io/
+          -->
             <div class="container">
+              <!-- Source Used for switching between index documentation and about page
+              https://openclassrooms.com/en/courses/2479876-build-your-website-with-html5-and-css3/2490386-creating-links
+                -->
               <a class="navbar-brand" href="index.html">RecMate</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -110,6 +122,8 @@
                   
 
                 
+                  <!-- Source for the Map
+                    https://support.google.com/maps/answer/144361?co=GENIE.Platform%3DDesktop&hl=en -->
                   <iframe
                   id ="map"
                   src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d273132.4976600421!2d-76.9222563807033!3d39.000385465521035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1574029716707!5m2!1sen!2sus"
@@ -121,6 +135,10 @@
                 <div class="content2 "></div>
                 <p><a id= "bookbutton" type= "button" class="bookbut btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Book Now &raquo;</a></p>
                 
+                <!--
+                  Source to how to use a Modal 
+                  https://www.w3schools.com/bootstrap/bootstrap_modal.asp 
+                -->
                 <!-- Modal -->
                 <div class="modal fade" id="myModal" role="dialog">
                     <div class="modal-dialog">
@@ -139,6 +157,9 @@
                           <input type="email" class="somepad form-control" id="exampleInputEmail1" placeholder="example@email.com">
                           <label>Phone Number</label>
                           <input  class="somepad form-control" placeholder="(###)-###-####"> 
+                          <!--Source for Date and Time 
+                          https://css-tricks.com/snippets/javascript/showhide-element/
+                          -->
                           <label>Date</label>  
                           <input class="somepad form-control" type="date" >
                           <label>Start Time</label>
@@ -157,6 +178,10 @@
                       
                         </div>
               </div>
+                    <!--
+                      Source for Moal in a Modal 
+                      https://codepen.io/sonar/pen/egaxJE 
+                    -->
                                               <!-- Modal2 -->
                                               <div class="modal fade" id="mynewModal" role="dialog" tabindex="-1">
                                                   <div class="modal-dialog modal-sm modal-notify modal-success">
@@ -213,6 +238,8 @@
             let array = [];
 
             for (i = 0; i < res.length; i++) {
+              //Source for two functions on a single onclick
+              //https://stackoverflow.com/questions/16025138/call-two-functions-from-same-onclick
               array +=
                 "<button class='myButton' id="+i+" onclick='getaddress(this.id); showButton();'>" +
                 res[i].name +
@@ -259,44 +286,13 @@
           .then(data => (document.querySelector(".content2").innerHTML = data));
       }
       
+      //Source to hide and show the booking button 
+      //https://css-tricks.com/snippets/javascript/showhide-element/
       function showButton() {
         var x = document.getElementById("bookbutton");
         x.style.display = "block";
       }
    
-      /*
-      var endMarker;
-      var map;
-      function dropPin() {
-        fetch("https://data.princegeorgescountymd.gov/resource/gwq4-iu9d.json")
-          .then(res => res.json())
-          //.then(res => res.map(c => c.title))
-          .then(res => {
-            const data = res.map(i => i.address);
-            console.log(data[1]);
-            // if any previous marker exists, let's first remove it from the map
-            if (endMarker) {
-              endMarker.setMap(null);
-            }
-            // create the marker
-            endMarker = new google.maps.Marker({
-              position: map.getCenter(),
-              map: map,
-              draggable: true
-            });
-            copyMarkerpositionToInput();
-            // add an event "onDrag"
-            google.maps.event.addListener(endMarker, "dragend", function() {
-              copyMarkerpositionToInput();
-            });
-          });
-      }
-      function copyMarkerpositionToInput() {
-        // get the position of the marker, and set it as the value of input
-        document.getElementsByClassName("map").value =
-          endMarker.getPosition().lat() + "," + endMarker.getPosition().lng();
-      }
-      */
     </script>
   </body>
 </html>
