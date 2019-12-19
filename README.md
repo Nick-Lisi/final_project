@@ -20,7 +20,9 @@ Click Here [Final Report](https://github.com/Nick-Lisi/final_project/blob/master
 2. Make a new application and go to the deploy tab
 3. Connect your application to your repository 
 4. Check the box that says "Automatic deploy"
-5. Now you can view your application at your url .herokuapp.com
+5. Scroll down and click deploy brach 
+6. Click the button that says "view"
+7. Now you can view your application at your url .herokuapp.com
 
 ## Running on personal server
 1. Download the repository [here](https://github.com/Nick-Lisi/final_project)
