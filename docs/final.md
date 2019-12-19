@@ -1,7 +1,7 @@
 # Final Report
 ## RecMate
 
-**Team Members** Nicholas Lisi, Kyle Barry, Shane Mullen, Noah Susskind, David Gerzog, & Abby Demers
+**Team Members:** Nicholas Lisi, Kyle Barry, Shane Mullen, Noah Susskind, David Gerzog, & Abby Demers
 
 **Link:** [RecMate](https://warm-inlet-29798.herokuapp.com/index.html)
 
