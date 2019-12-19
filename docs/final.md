@@ -19,14 +19,22 @@
 **Solution:**
 Provide the public with information on recreational centers by creating an application utilizing the database information. 
 
-**Rationale**
+**Rationale:**
+We wanted to build somthing similiar to kayak where users can scroll though a list of options find out where they are and book it all on one site. 
 
 **How it helps:**
 The application allows users to go through every possible rec center until they find one that is open and works for their activity. 
 
-### Challenges
+**Challenges:**
+- Pin Drop on Map
+- Sticking to Timeline
+- Confirmation Email
+- Color Scheme
+- Heroku
+- Bootstrap
 
-Technical system decision rationale
+As a team we were able to overcome some of our challenges and figure out how to use Heroku and Bootstrap. It was difficult because none of us have had any experience developing a web application.  We took it one step at a time and were able to come up with a good looking final project.  However, after tons of research we were unable to figure out how to drop a pin on the map and have our system send a confirmation email. 
 
-Challenges faced and impact on final design
-Possible future work directions with this problem
+
+**Looking to the Future:**
+In the future our system can be modified to recreation centers across the US depending on the dataset.  We would also like to finally figure out how to drop a pin on the map and set it up so that the user will receive an email confirmation.  em
