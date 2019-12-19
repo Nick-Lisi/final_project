@@ -10,4 +10,4 @@ RecMate allows users to book recreation centers throughout Prince Georges County
 5. Once filled out the user will select submit 
 6. Another pop-up will come up informing the user that an email confirmation has been sent to them and they are all finished 
 
-To get more information Click Here: [Documentation] (https://warm-inlet-29798.herokuapp.com/documentation.html)
+To get more information Click Here: [Documentation](https://warm-inlet-29798.herokuapp.com/documentation.html)
