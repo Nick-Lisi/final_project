@@ -8,10 +8,10 @@ Link to app: [RecMate](https://warm-inlet-29798.herokuapp.com/index.html)
 Usable browsers: Desktop/Laptop & Smartphone 
 
 ## Need Help?
-click here [User Manual]
+Click Here [User Manual] (https://github.com/Nick-Lisi/final_project/blob/master/docs/user.md)
 
 ## RecMate creation process 
-click here [Final Report]
+Click Here [Final Report](https://github.com/Nick-Lisi/final_project/blob/master/docs/final.md)
 
 ---
 
