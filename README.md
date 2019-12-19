@@ -31,8 +31,8 @@ Click Here [Final Report](https://github.com/Nick-Lisi/final_project/blob/master
 6. The application will open up and update after each change is made to the code (this a great place to do test scripts)
 
 ## API
-The Get command is used to render our application onto the webpage
-The Put and Post commands send information to the index page of our application
+- The Get command is used to render our application onto the webpage
+- The Put and Post commands send information to the index page of our application
 
 ## Known Bugs 
 - The pin does not drop on the map
