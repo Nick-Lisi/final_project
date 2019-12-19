@@ -25,7 +25,7 @@ We wanted to build somthing similiar to kayak where users can scroll though a li
 **How it helps:**
 The application allows users to go through every possible rec center until they find one that is open and works for their activity. 
 
-**Challenges:**
+## Challenges
 - Pin Drop on Map
 - Sticking to Timeline
 - Confirmation Email
@@ -36,5 +36,5 @@ The application allows users to go through every possible rec center until they 
 As a team we were able to overcome some of our challenges and figure out how to use Heroku and Bootstrap. It was difficult because none of us have had any experience developing a web application.  We took it one step at a time and were able to come up with a good looking final project.  However, after tons of research we were unable to figure out how to drop a pin on the map and have our system send a confirmation email. 
 
 
-**Looking to the Future:**
+## Looking to the Future:
 In the future our system can be modified to recreation centers across the US depending on the dataset.  We would also like to finally figure out how to drop a pin on the map and set it up so that the user will receive an email confirmation.  em
