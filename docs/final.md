@@ -16,12 +16,12 @@
 - We used a database that contains sufficient data that gives the user locations of fields within the Prince George County. 
 - [Link to Data Source](https://data.princegeorgescountymd.gov/Community/Recreation-Centers/gwq4-iu9d) 
 
-### Solution:
+**Solution:**
 Provide the public with information on recreational centers by creating an application utilizing the database information. 
 
-### Rationale:
+**Rationale**
 
-### How it helps:
+**How it helps:**
 The application allows users to go through every possible rec center until they find one that is open and works for their activity. 
 
 ### Challenges
