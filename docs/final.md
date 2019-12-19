@@ -7,7 +7,7 @@
 
 **Information Problem:** Finding a field to hold organized sporting events is difficult. Not only is it hard to find a well maintained field, but it is also frustrating arriving to a field that is already in use.
 
-**Stakeholders:**
+**Stakeholders:** 
 - Athletes
 - Active residents of Prince George’s county
 - Intramural and club sports teams
@@ -16,9 +16,17 @@
 - We used a database that contains sufficient data that gives the user locations of fields within the Prince George County. 
 - [Link to Data Source](https://data.princegeorgescountymd.gov/Community/Recreation-Centers/gwq4-iu9d) 
 
+### Solution:
+Provide the public with information on recreational centers by creating an application utilizing the database information. 
 
-Chosen strategies and solutions for the problem
+### Rationale:
+
+### How it helps:
+The application allows users to go through every possible rec center until they find one that is open and works for their activity. 
+
+### Challenges
+
 Technical system decision rationale
-How/if your final system helps to address the problem
+
 Challenges faced and impact on final design
 Possible future work directions with this problem
