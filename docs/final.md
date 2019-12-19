@@ -8,13 +8,13 @@
 **Information Problem:** Finding a field to hold organized sporting events is difficult. Not only is it hard to find a well maintained field, but it is also frustrating arriving to a field that is already in use.
 
 **Stakeholders:**
-    - Athletes
-    - Active residents of Prince George’s county
-    - Intramural and club sports teams
+- Athletes
+- Active residents of Prince George’s county
+- Intramural and club sports teams
 
 **Data Source:** 
-    - We used a database that contains sufficient data that gives the user locations of fields within the Prince George County. 
-    - [Link to Data Source](https://data.princegeorgescountymd.gov/Community/Recreation-Centers/gwq4-iu9d) 
+- We used a database that contains sufficient data that gives the user locations of fields within the Prince George County. 
+- [Link to Data Source](https://data.princegeorgescountymd.gov/Community/Recreation-Centers/gwq4-iu9d) 
 
 
 Chosen strategies and solutions for the problem
